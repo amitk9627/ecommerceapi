@@ -1,0 +1,23 @@
+{
+  "name": "ecommerceapi",
+  "version": "1.0.0",
+  "description": "Ecommerce Api",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitk9627/ecommerceapi.git"
+  },
+  "author": "Amit kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitk9627/ecommerceapi/issues"
+  },
+  "homepage": "https://github.com/amitk9627/ecommerceapi#readme",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
