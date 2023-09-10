@@ -1,7 +1,5 @@
 const mongoose = require('mongoose');
 const app=require("./app.js");
-const cors = require('cors');
-app.use(cors());
 
 const connectDB=async ()=>{
    await mongoose.connect("mongodb+srv://ramitgzp56:TUQcHFl9w21VGAeU@cluster0.tlwdfrq.mongodb.net/");
