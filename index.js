@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-const cors = require('cors')
-const app=require("./app.js")
+const app=require("./app.js");
+const cors = require('cors');
 app.use(cors());
 
 const connectDB=async ()=>{
